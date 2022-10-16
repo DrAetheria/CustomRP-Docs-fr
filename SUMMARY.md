@@ -2,4 +2,4 @@
 
 * [🏠 Acceuil](README.md)
 * [🛠 Mise en Place](setting-up.md)
-* [❓ Q&R](faq.md)
+* [❓ FAQ](faq.md)
