@@ -1,5 +1,5 @@
 ---
-description: RTFM
+description: Lisez le putain de manuel. (Bordel.)
 ---
 
 # 🛠 Mise en Place
