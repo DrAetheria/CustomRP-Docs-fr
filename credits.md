@@ -1,3 +1,0 @@
-# ⭐ Credits
-
-Traduit par Aetheria.
