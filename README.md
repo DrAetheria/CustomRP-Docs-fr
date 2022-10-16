@@ -1,9 +1,8 @@
-# 🏠 Home
+# 🏠 Acceuil
 
-Welcome to the CustomRP docs!
+Bienvenue sue le wiki de CustomRP!
+Veuillez vous référer aux [Sorties](https://github.com/maximmax42/Discord-CustomRP/releases) pour télécharger le logiciel, ou sur [Mettre en Place](setting-up.md) afin de préparer CustomRP.
 
-Please refer to [Releases](https://github.com/maximmax42/Discord-CustomRP/releases) link to download the app or to [Setting Up](setting-up.md) page for how to set the manager up.
+Voir [Q&R](faq.md) pour avoir des réponses aux question fréquentes et problèmes communs.
 
-Check out [FAQ](faq.md) page for answers to frequent questions and troubleshooting steps for common problems.
-
-Want to add your language to the wiki? Message me on Discord (maximmax42#5572) or in the [CustomRP server](https://www.customrp.xyz/discordserver), or [open an issue](https://github.com/maximmax42/CustomRP-docs/issues/new) in the GitHub repo of this wiki. If you want to edit existing language - please use "Edit on GitHub" link in the right hand menu of the translated page.
+Envie d'ajouter votre langue au Wiki? Envoyez moi un message sur Discord (maximmax42#5572), sur le serveur de [CustomRP](https://www.customrp.xyz/discordserver) ou bien [Ouvrir un sujet](https://github.com/maximmax42/CustomRP-docs/issues/new) sur le repositoire GitHub de ce fichier. Si vous avez envie d'éditer une langue déja éxistante, veuillez utiliser le lien "Éditer sur GitHub" dans la partie droite de la page traduite.
