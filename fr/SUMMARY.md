@@ -1,4 +1,4 @@
-# Table of contents
+# Table des matières
 
 * [🏠 Acceuil](README.md)
 * [🛠️ Mise en Place](setting-up.md)
