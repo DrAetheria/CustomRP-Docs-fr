@@ -2,31 +2,95 @@
 description: Lisez le putain de manuel. (Bordel.)
 ---
 
-# 🛠️ Mise en Place
 
-{% hint style="warning" %}
-Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/setting-up) pour obtenir les informations les plus récentes.
-{% endhint %}
+
+
+
+
+
+
+
+
+
+
+
+# 🛠️ Mise en Place
 
 Si vous rencontrez des erreurs, consultez [FAQ](faq.md).
 
-Avant la configuration, assurez-vous d'avoir activé le statut d'activité dans les paramètres Discord:
+Avant la configuration, assurez-vous d'avoir le Client Discord (**Et non sur Navigateur**) et d'avoir activé le statut d'activité dans les paramètres Discord:
 
 <figure><img src="https://user-images.githubusercontent.com/112771301/196043582-9a04d91f-5c6f-4399-a705-18955e24ea04.png" alt=""><figcaption></figcaption></figure>
 
+Si l’option “Partage ton statut d’activité...” était désactivé, vous devrez aussi activer manuellement le “Statut d’activité” dans les paramètres de confidentialité de chaque serveur comptant plus de 200 membres auquel vous participez.
+
 ## Procédure de Mise en Place
 
-* Aller sur https://discord.com/developers/applications/. (Le site n'est pas en français.)
+* Aller sur [Discord Developer portal](https://discord.com/developers/applications). (Le site n'est pas en français.)
 * Cliquer **New Application** en haut à droite.
 
 ![image](https://user-images.githubusercontent.com/2225711/161050202-c796103d-6712-401e-be96-3f3712512375.png)
 
 * Choisir un nom pour l'application, il sera affiché après "En train de jouer" dans le statut ; appuyez sur **Create**.
-* Copiez **l'ID d'application (APPLICATION ID)** et collez-le dans le logiciel CustomRP dans **ID**, puis appuyez sur **Connecter**. Si cela est fait correctement, votre statut dans Discord devrait maintenant indiquer "En train de jouer **\[nom de l'application]**".
-  * Remarque : Si vous avez défini un statut personnalisé (celui avec emoji), il sera prioritaire par rapport à celui de votre CustomRP. Il sera cependant visible dans la fenêtre contextuelle du profil.
+* Copiez **l'ID d'application (Application ID)** et collez-le dans le logiciel CustomRP dans la partie **ID**, puis appuyez sur **Connecter**. 
 
 ![image](https://user-images.githubusercontent.com/2225711/161050341-8169af53-5d3f-44d6-b745-cc711e8d1476.png)
 
+*Si cela est fait correctement, votre statut dans Discord devrait maintenant indiquer "En train de jouer **\[nom de l'application]**". Au cas ou vous encontrez des erreurs: voir la [FAQ](faq.md).
+  *Le statut ne se montrera pas si vous êtes en mode invisible.
+  *Si vous avez un statut customisé en marche (Celui avec l'emoji), il sera prioritisé sur le statut CustomRP. Cependant le statut CustomRP sera vu sur le popup du profil.
+
+*Vous pouvez désormais remplir les autres champs. (Tout sauf "Type" est optionel):
+  * **Type**: Le type de présence.
+    * Utiliser tout autre type que "Playing" désactive le "Party count".  Les "Types" concurrents désactivent également les horodatages.
+  * **Details**: Première ligne de la présence sous le nom de l'application.
+  * **State**: Deuxième ligne de la présence. Sera premier si le champ "Details" est vide.
+  * **Party**: S'affiche en tant que `(X of Y)` après la ligne "State".
+
+
+
+    * If State is empty, Party count will not be shown on mobile, but will on PC. If both Party and State are present, they'll show at the bottom of the presence on PC.
+  * **Timestamp**: A timer that counts from a specific timestamp. Displayed below Details and State as `(hh:)mm:ss`.
+  * **Big and small images**: Images that are shown on the left side of the presence. If both are present, small image is in the bottom right corner of the big one.
+    * **Key**: Either a direct URL (preferred, as you can also use GIFs that way) or an Art Asset name.
+      * _URL method:_ If your image is already on the internet, put the **direct link** (usually done by right clicking the image and choosing something like "Copy image link") in the field. If your image is on your PC, use any image hosting and sharing website (e.g. Imgur, ImageShack, etc). It's **not recommended** to upload images sent in Discord DMs/channels, as their links get too big too quickly and they expire in 2 weeks.
+        * If after connecting you get stuck on "Updating presence...", chances are the URL you've put was too long or was not a direct URL. If you're sure it's a direct one, use a URL shortner.
+      * _Art Asset method:_ On your application's page, navigate to Rich Presence -> Art Assets and upload at least one image under Rich Presence Assets. In CustomRP, there is a handy **Upload Assets** button in File menu (you can also use Ctrl+U) that will take you there if your ID field is set up properly.
+        * Note 1: Although usually the images become usable instantly, in some cases it might take up to several hours.
+        * Note 2: While you can name your asset with any name up to 999 symbols, the app will only accept names with 256 symbols max.
+    * **Text**: A text that appears when you hover over (or long tap on mobile) the image.
+  * **Buttons**: ⚠ Please note, there is currently a Discord bug - you can't see your own buttons, but others will see them.
+    * **Text**: A text displayed on the button.
+    * **URL**: A URL that the button will open upon clicking.
+* Hit **Update Presence** (or **Connect** if you aren't already connected).
+* Congratulations, you're wonderful!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 * Sur la page de votre application, accédez à Rich Presence -> Art Assets et téléchargez au moins une image sous Rich Presence Assets si vous souhaitez les utiliser. Dans CustomRP, il existe un bouton pratique \*\* Télécharger les ressources \*\* dans le menu Fichier (vous pouvez également utiliser Ctrl + U) qui vous y mènera si votre champ ID est correctement configuré.
   * Alternativement, vous pouvez simplement insérer une URL vers l'image dans le champ **Clé**.
   * Remarque : Bien que vous puissiez nommer votre élément avec n'importe quel nom jusqu'à 999 symboles, l'API n'accepte que les noms contenant 256 symboles au maximum.
