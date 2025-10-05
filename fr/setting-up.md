@@ -2,18 +2,6 @@
 description: Lisez le putain de manuel. (Bordel.)
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
 # 🛠️ Mise en Place
 
 Si vous rencontrez des erreurs, consultez [FAQ](faq.md).
@@ -66,45 +54,10 @@ Si l’option “Partage ton statut d’activité...” était désactivé, vous
 * Congratulations, you're wonderful!
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-* Sur la page de votre application, accédez à Rich Presence -> Art Assets et téléchargez au moins une image sous Rich Presence Assets si vous souhaitez les utiliser. Dans CustomRP, il existe un bouton pratique \*\* Télécharger les ressources \*\* dans le menu Fichier (vous pouvez également utiliser Ctrl + U) qui vous y mènera si votre champ ID est correctement configuré.
-  * Alternativement, vous pouvez simplement insérer une URL vers l'image dans le champ **Clé**.
-  * Remarque : Bien que vous puissiez nommer votre élément avec n'importe quel nom jusqu'à 999 symboles, l'API n'accepte que les noms contenant 256 symboles au maximum.
-* Accédez à la page Visualizer pour configurer les champs \*\* État, Détails, Grande clé d'image, Texte de grande image, Petite clé d'image, Petit texte d'image, Taille de la fête, Party Max \*\*. Tous ces éléments sont facultatifs.
-* Une fois que vous avez trouvé la configuration qui vous convient, copiez les valeurs dans les champs correspondants de CustomRP.
-  * Conseil : Vous pouvez survoler presque n'importe quel contrôle de l'application (y compris la ligne d'étiquettes **Détails**) et une info-bulle s'affichera !
-* Si vous souhaitez également configurer des boutons, remplissez les champs Texte et URL.
-  * Remarque : Lorsque vous cliquerez sur les boutons en votre propre présence, ils ne fonctionneront pas, mais ne vous inquiétez pas, ils fonctionneront pour tout le monde. C'est un problème du côté de Discord.
-* Appuyez sur **Mettre à jour la présence** (ou **Connecter** si vous n'êtes pas déjà connecté).
-* Félicitations, vous êtes merveilleux !
-
+-----
 ### J'utilise plus d'un client Discord, que dois-je faire ?
 
-Si vous avez plus d'un client Discord et que vous souhaitez que votre présence apparaisse sur un compte différent de l'application choisie automatiquement, veuillez appuyer sur **Déconnecter**, puis maintenez les touches Ctrl+Maj de votre clavier et appuyez sur \*_Connecter_ \*. Une fenêtre avec une entrée de nombre apparaîtra, mettez un nombre 1, fermez la fenêtre et appuyez à nouveau sur **Connecter**, sans Ctrl+Maj. Au cas où il s'agirait encore d'un mauvais compte, essayez le numéro 0, puis le 2 et ainsi de suite jusqu'au 9.
+Si vous avez plus d'un client Discord et que vous souhaitez que votre présence apparaisse sur un compte différent de l'application choisie automatiquement, veuillez cliquer sur **Déconnecter**, puis maintenez les touches Ctrl+Maj de votre clavier et appuyez sur **Connecter**. Une fenêtre avec une entrée de nombre apparaîtra, mettez le nombre 1, fermez la fenêtre et appuyez à nouveau sur **Connecter**, sans Ctrl+Maj. Au cas où il s'agirait encore d'un mauvais compte, essayez le numéro 0, puis le 2 et ainsi de suite jusqu'au 9.
 
 Veuillez noter que si vous avez plusieurs clients Discord exécutés au démarrage, le numéro de canal attribué à chaque client peut ne pas être persistant d'un démarrage à l'autre et peut changer en fonction du client démarré en premier. Pour éviter cela, vous pouvez soit démarrer manuellement des clients supplémentaires, soit utiliser le planificateur de tâches Windows pour retarder le démarrage des clients.
 
