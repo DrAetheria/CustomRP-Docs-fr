@@ -81,30 +81,17 @@ Voici certaines choses à essayer:
 
 Si rien n'a fonctionné, je ne peux rien faire d'autre, désolé.
 
-
-
-
 ### L'application annonce "L'URL de l'image est trop longue" ou l'application est bloquée sur "Mise à jour de la présence..."
 
 Vérifiez l'URL de l'image, ils sont soit
 Check the image URLs, they're either too long, or not actually direct links.
 
+### L'application fonctionnait auparavant, mais maintenant elle plante et ne se lance plus du tout.
 
+Vous avez peut-être inséré une longue chaîne de texte sophistiqué (ou du texte dans une langue qui utilise des lettres non latines) dans un champ et cela a planté l'application. Pour résoudre ce problème, appuyez sur Win + R, tapez `%localappdata%\maximmax42` et supprimez ou renommez les dossiers avec CustomRP dans le nom, puis démarrez l'application. Notez que cela réinitialise complètement l'application.
 
-
----------------------
-
-
-
-
-
-
-### L'application fonctionnait auparavant, mais maintenant elle plante et elle ne se lance plus du tout.
-
-Vous avez peut-être inséré une longue chaîne de texte fantaisiste (ou du texte dans une langue qui utilise des lettres non latines) dans un champ et cela a planté l'application. Pour résoudre ce problème, appuyez sur Win + R, tapez `% localappdata% \ maximmax42` et supprimez ou renommez les dossiers avec CustomRP dans le nom, puis démarrez l'application. Notez que cela réinitialise complètement l'application.
-
-### L'application n'arrête pas de planter lors de la mise à jour/de la tentative de connexion/etc.
+### L'application n'arrête pas de planter lors de la mise à jour/tentative de connexion/etc.
 
 Si vous parvenez à lancer l'application et à obtenir un rapport de plantage, et qu'il indique `System.IO.FileNotFoundException: Could not load file or assembly...`, veuillez réinstaller l'application.
 
-Si vous ne trouvez pas de réponse à votre question/problème, envoyez un message au salon `#support` sur le serveur Discord de [CustomRP](https://www.customrp.xyz/discordserver) ou bien envoyez un message à maximmax42#5572 sur Discord ou [Ouvrir un Sujet](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
+Si vous ne trouvez pas de réponse à votre question/problème, envoyez un message au salon `#support` sur le [serveur Discord de CustomRP](https://www.customrp.xyz/discordserver) ou bien envoyez un message à maximmax42 sur Discord ou [Ouvrir un Issue](https://github.com/maximmax42/Discord-CustomRP/issues/new/choose).
