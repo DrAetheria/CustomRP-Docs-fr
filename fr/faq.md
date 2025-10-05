@@ -1,14 +1,25 @@
 ---
-description: Question posées fréquement
+description: Veuillez arrêter de me poser les mêmes questions sur le serveur.
 ---
 
-# ❓ FAQ
-
-{% hint style="warning" %}
-Cette page peut être obsolète. Veuillez consulter la [version anglaise de cette page](https://app.gitbook.com/s/5gJfBQC2iWNK0J953fo2/faq) pour obtenir les informations les plus récentes.
-{% endhint %}
+# ❓ Questions Fréquemment Posées
 
 ## Questions
+
+### Pourquoi mes boutons ne s'affichent-ils pas ?
+
+Ceci est un bug Discord. Vous ne pouvez pas voir vos boutons, cependant les autres pourront.
+
+### Est-ce que c'est un virus? Mon antivirus/VirusTotal/etc annonce qu'il y a un virus.
+
+Non. CustomRP ne contient aucun virus
+No. CustomRP doesn't contain any viruses, the source code is available for everyone to check.
+
+You might be asking then, why do some antiviruses and VirusTotal say there's a virus? Mostly it's because my app a) isn't as popular to be considered trustworthy by Windows and some antiviruses, and b) isn't signed with a code signing certificate (because I'm Russian I currently can't even buy one, and if I could, they're pretty expensive).
+
+
+--------------------------------------------
+
 
 ### Puis-je ajouter plus de 2 boutons ?
 
