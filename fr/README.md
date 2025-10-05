@@ -1,6 +1,6 @@
 # 🏠 Acceuil
 
-Bienvenue sue la documentation de CustomRP!
+Bienvenue sur la documentation de CustomRP!
 
 Veuillez vous référer aux [Sorties](https://github.com/maximmax42/Discord-CustomRP/releases) pour télécharger le logiciel, ou sur [Mise en Place](setting-up.md) afin de préparer CustomRP.
 
