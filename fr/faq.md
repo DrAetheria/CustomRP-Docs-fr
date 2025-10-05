@@ -43,8 +43,6 @@ Il s’est ouvert car vous avez appuyé sur Ctrl + Maj et cliqué sur le bouton 
 
 Avant d'essayer quoi que ce soit, assurez-vous d'être sur la dernière version de CustomRP !
 
-
-
 ### J'ai installé CustomRP mais il ne se lance pas.
 
 Ceci est probablement dû à votre antivirus, qui empêche l’application de se lancer. Ajoutez le dossier `%appdata%\CustomRP` aux exceptions. 
