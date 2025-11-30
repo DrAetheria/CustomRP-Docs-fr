@@ -6,11 +6,11 @@ description: Lisez le putain de manuel. (Bordel.)
 
 Si vous rencontrez des erreurs, consultez [FAQ](faq.md).
 
-Avant la configuration, assurez-vous d'avoir le Client Discord (**Et non sur Navigateur**) et d'avoir activé le statut d'activité dans les paramètres Discord:
+Avant la configuration, assurez-vous d'avoir le Client Discord (**Et non sur Navigateur**) et d'avoir activé "Partager mon activité" dans les paramètres Discord:
 
-<figure><img src="https://user-images.githubusercontent.com/112771301/196043582-9a04d91f-5c6f-4399-a705-18955e24ea04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CustomRPParaConfidentialite.png" alt=""><figcaption></figcaption></figure>
 
-Si l’option “Partage ton statut d’activité...” était désactivé, vous devrez aussi activer manuellement le “Statut d’activité” dans les paramètres de confidentialité de chaque serveur comptant plus de 200 membres auquel vous participez.
+Si "Ne pas partager" a été sélectionné dans "Serveurs avec lesquels je partage", n'oubliez pas de choisir quels serveurs vous voulez partager votre activité sous "Mes serveurs".
 
 ## Procédure de Mise en Place
 
