@@ -53,11 +53,11 @@ Fermez l’application via le Gestionnaire des tâches, supprimez le dossier `%l
 
 ### L'application s'est connectée, mais je ne vois pas l'état dans mon profil
 
-Assurez-vous d'avoir activé le statut d'activité dans les paramètres Discord :
+Assurez-vous d'avoir activé "Partager mon activité" dans les paramètres Discord :
 
-<figure><img src="https://user-images.githubusercontent.com/112771301/196043582-9a04d91f-5c6f-4399-a705-18955e24ea04.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/CustomRPParaConfidentialite.png" alt=""><figcaption></figcaption></figure>
 
-Si l’option “Partage ton statut d’activité...” était désactivé, vous devrez aussi activer manuellement le “Statut d’activité” dans les paramètres de confidentialité de chaque serveur comptant plus de 200 membres auquel vous participez.
+Si "Ne pas partager" a été sélectionné dans "Serveurs avec lesquels je partage", n'oubliez pas de choisir quels serveurs vous voulez partager votre activité sous "Mes serveurs".
 
 ### L'application fonctionnait, mais maintenant elle se connecte indéfiniment.
 
